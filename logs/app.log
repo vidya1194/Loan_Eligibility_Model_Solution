@@ -1,0 +1,17 @@
+2024-08-01 17:34:32,815:INFO:Starting Loan Eligibility Prediction Model
+2024-08-01 17:34:32,818:INFO:Data loaded
+2024-08-01 17:34:32,829:INFO:Data Preprocessed
+2024-08-01 17:34:32,832:INFO:Data Partitioned
+2024-08-01 17:34:32,875:INFO:Logistic Regression Cross-Validation Accuracy scores: [0.82828283 0.75510204 0.80612245 0.80612245 0.86734694]
+2024-08-01 17:34:32,875:INFO:Logistic Regression Mean accuracy: 0.8125953411667698
+2024-08-01 17:34:32,875:INFO:Logistic Regression Standard deviation: 0.036422825108565836
+2024-08-01 17:34:33,579:INFO:Random Forest Cross-Validation Accuracy scores:[0.81818182 0.73469388 0.76530612 0.78571429 0.81632653]
+2024-08-01 17:34:33,579:INFO:Random Forest Mean accuracy:0.7840445269016698
+2024-08-01 17:34:33,579:INFO:Random Forest Standard deviation:0.03161292427717164
+2024-08-01 17:34:33,610:INFO:Logistic Regression Model Accuracy: 0.7886178861788617
+2024-08-01 17:34:33,610:INFO:Logistic Regression Confusion Matrix: [[12 26]
+ [ 0 85]]
+2024-08-01 17:34:33,610:INFO:Random Forest Model Accuracy: 0.7886178861788617
+2024-08-01 17:34:33,610:INFO:Random Forest Confusion Matrix: [[13 25]
+ [ 1 84]]
+2024-08-01 17:34:33,610:INFO:Best model saved
