@@ -43,6 +43,10 @@ def main():
         logger.info(f'Logistic Regression Confusion Matrix: {lr_conf_matrix}')
         logger.info(f'Random Forest Model Accuracy: {rf_accuracy}')
         logger.info(f'Random Forest Confusion Matrix: {rf_conf_matrix}')
+        print(f'Logistic Regression Model Accuracy: {lr_accuracy}')
+        print(f'Logistic Regression Confusion Matrix: {lr_conf_matrix}')
+        print(f'Random Forest Model Accuracy: {rf_accuracy}')
+        print(f'Random Forest Confusion Matrix: {rf_conf_matrix}')
         
         # Save the best model
         save_model(random_forest_model, 'models/best_model.pkl')
